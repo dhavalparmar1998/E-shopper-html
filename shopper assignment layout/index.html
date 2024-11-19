@@ -1,0 +1,1143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-shopper Website</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+  <!-- header start -->
+  <div class="header">
+    <div class="container header-menu">
+        <div class="row">
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-6 phonebar">
+                <nav class="pt-1">
+                    <a href="#"><i class="fa-solid fa-phone"></i>&nbsp;+919987992146</a>
+                </nav>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-6 phonebar">
+              <nav class="pt-1">
+                  
+                  <a href="#"><i class="fa-solid fa-envelope"></i>&nbsp;eshopper.domain.in</a>
+              </nav>
+          </div>
+            <div class="col-xl-6 col-sm-6">
+                <nav class="nav header-icon">
+                    <a class="nav-link" href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a class="nav-link" href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a class="nav-link" href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a class="nav-link" href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a class="nav-link" href="#"><i class="fa-brands fa-google"></i></a>
+                    
+                  </nav>
+            </div>
+        </div>
+    </div>
+   </div>
+  <!--header menu  -->
+  <div class="container pt-3 pb-4">
+    <div class="row">
+      <div class="col-xl-2 col-sm-2  col-12 eshopper-logo">
+        <img src="images/home/logo.png" alt="">
+      </div>
+      <div class="col-xl-4 d-md-none d-lg-block col-12 pt-2 dropdown-box">
+        <button class="btn btn-secondary dropdown-button dropdown-toggle" type="button" data-bs-toggle="dropdown"
+          aria-expanded="false">
+          Country
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">India</a></li>
+          <li><a class="dropdown-item" href="#">USA</a></li>
+          <li><a class="dropdown-item" href="#">UK</a></li>
+        </ul>
+
+        <button class="btn btn-secondary dropdown-button dropdown-toggle" type="button" data-bs-toggle="dropdown"
+          aria-expanded="false">
+          Currency
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Rupee</a></li>
+          <li><a class="dropdown-item" href="#">Dollar</a></li>
+          <li><a class="dropdown-item" href="#">Pound</a></li>
+        </ul>
+      </div>
+      <div class="col-xl-6 col-sm-10 col-12 menu-shop">
+        <ul class="nav">
+          <li class="nav-item d-md-none d-lg-block">
+            <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-house"></i>&nbsp;Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fa-solid fa-user"></i>&nbsp;Account</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fa-solid fa-star"></i>&nbsp;wishlist</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fa-solid fa-cart-shopping"></i>&nbsp;cart</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fa-solid fa-crosshairs"></i>&nbsp;checkout</a>
+          </li>
+          <li class="nav-item d-none d-sm-block">
+            <a class="nav-link" href="#"><i class="fa-solid fa-lock"></i>&nbsp;login</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- navbar search  -->
+
+  <div class="container pt-2 header-end">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Home</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>    
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown main-dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                shop
+              </a>
+              <ul class="dropdown-menu main-dropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown main-dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                blogs
+              </a>
+              <ul class="dropdown-menu main-dropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item main-dropdown">
+              <a class="nav-link" href="#">404</a>
+            </li>
+            <li class="nav-item main-dropdown">
+              <a class="nav-link">contact</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2 input-btn" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success search-btn" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <!-- slider start -->
+  <div class="container eshopper-slider pt-5 pb-5">
+    <div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row">
+            <div class="col-xl-6 col-xs-12 col-sm-6 eshopper-text">
+              <h1>e <span>-shopper</span></h1>
+              <h2>100% Responsive Design</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+              <p class="p-btn">
+                <button class="btn btn-warning slider-btn">get it now</button>
+              </p>
+            </div>
+            <div class="col-xl-6 col-xs-12 col-sm-6 eshop-slide eshop-slider">
+              <img src="images/home/girl1.jpg" class="img-fluid" alt="">
+              <div class="pricing">
+                <img src="images/home/pricing.png" class="img-fluid" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-xl-6 col-xs-6 eshopper-text">
+              <h1>e <span>-shopper</span></h1>
+              <h2>100% Responsive Design</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+              <p>
+                <button class="btn btn-warning slider-btn">get it now</button>
+              </p>
+            </div>
+            <div class="col-xl-6 col-xs-6 eshop-slide eshop-slider">
+              <img src="images/home/girl2.jpg" class="img-fluid" alt="">
+              <div class="pricing">
+                <img src="images/home/pricing.png" class="img-fluid" alt="">
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-xl-6 eshopper-text">
+              <h1>e <span>-shopper</span></h1>
+              <h2>100% Responsive Design</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+              <p>
+                <button class="btn btn-warning slider-btn">get it now</button>
+              </p>
+            </div>
+            <div class="col-xl-6 eshop-slide eshop-slider">
+              <img src="images/home/girl3.jpg" class="img-fluid" alt="">
+              <div class="pricing">
+                <img src="images/home/pricing.png" class="img-fluid" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-3">
+        <aside>
+          <section class="categories pt-3 pb-3">
+            <h1 class="heading-h1 separator">Categories</h1>
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed accordion-button-eshopper" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false"
+                    aria-controls="flush-collapseOne">
+                    Mens
+                  </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body accordion-body-eshopper">
+                    <ul class="nav flex-column">
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">
+                          <input type="checkbox"> Mens Shoes <span class="float-end">(20)</span>
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#"><input type="checkbox"> Mens Shoes <span
+                            class="float-end">(20)</span></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#"><input type="checkbox"> Mens Shoes <span
+                            class="float-end">(20)</span></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link " href="#"><input type="checkbox"> Mens Shoes <span
+                            class="float-end">(20)</span></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed accordion-button-eshopper" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                    aria-controls="flush-collapseTwo">
+                    Womens
+                  </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body accordion-body-eshopper">
+                    <ul class="nav flex-column">
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">
+                          <input type="checkbox"> Mens Shoes <span class="float-end">(20)</span>
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#"><input type="checkbox"> Mens Shoes <span
+                            class="float-end">(20)</span></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#"><input type="checkbox"> Mens Shoes <span
+                            class="float-end">(20)</span></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link " href="#"><input type="checkbox"> Mens Shoes <span
+                            class="float-end">(20)</span></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed accordion-button-eshopper" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false"
+                    aria-controls="flush-collapseThree">
+                    kids
+                  </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body accordion-body-eshopper">
+                    <ul class="nav flex-column">
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">
+                          <input type="checkbox"> Mens Shoes <span class="float-end">(20)</span>
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#"><input type="checkbox"> Mens Shoes <span
+                            class="float-end">(20)</span></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#"><input type="checkbox"> Mens Shoes <span
+                            class="float-end">(20)</span></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link " href="#"><input type="checkbox"> Mens Shoes <span
+                            class="float-end">(20)</span></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <ul class="nav flex-column accordion-body-eshopper">
+              <li class="nav-item">
+                <a class="nav-link" href="#">fashion</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">households</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">interior</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">bags</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">shoes</a>
+              </li>
+            </ul>
+          </section>
+          <section class="brand pt-3 pb-3">
+            <h1 class="heading-h1 separator">brands</h1>
+            <ul class="nav flex-column accordion-body-eshopper">
+              <li class="nav-item">
+                <a class="nav-link" href="#"> <a class="nav-link " href="#">Acne<span
+                      class="float-end">(54)</span></a></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"> <a class="nav-link " href="#">adidas<span
+                      class="float-end">(54)</span></a></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"> <a class="nav-link " href="#">rebook<span
+                      class="float-end">(54)</span></a></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"> <a class="nav-link " href="#">mrf<span
+                      class="float-end">(54)</span></a></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"> <a class="nav-link " href="#">spark<span
+                      class="float-end">(54)</span></a></a>
+              </li>
+            </ul>
+          </section>
+          <section class="ranges pt-5 pb-3 d-none d-sm-block d-md-none d-lg-block">
+            <h1 class="heading-h1 separator">price range</h1>
+            <label for="customRange1" class="form-label"></label>
+            <input type="range" class="form-range" id="customRange1">
+          </section>
+
+          <section class="shipping-img d-none d-sm-block d-md-none d-lg-block">
+            <img src="images/home/shipping.jpg" class="img-fluid" alt="">
+          </section>
+        </aside>
+      </div>
+      <div class="col-xl-9 right-sided-corner">
+        <div class="row">
+          <section class="feature-item pt-3 pb-3">
+            <h1 class="heading-h1 separator pb-3">features item</h1>
+            <div class="row">
+              <figure class="col-xl-4 col-xs-12 product products text-center border pt-2">
+                <img src="images/home/product1.jpg" class="img-fluid" alt="">
+                <figcaption>
+                  <h3 class="heading-h3">$56</h3>
+                  <p class="para">Lorem ipsum dolor sit amet</p>
+                  <p>
+                    <button class="btn btn-warning cart-btn"><i class="fa-solid fa-cart-plus"></i>&nbsp;Add to cart</button>
+                  </p>
+                </figcaption>
+                <div class="col-xl-12 wishlist wishlist1">
+                  <span><a href="#"><i class="fa fa-plus-square"></i>&nbsp;Add to wishlist</a></span>
+                  <span><a href="#"><i class="fa fa-plus-square"></i>&nbsp;Add to compare</a></span>
+                </div>
+                <div class="logo">
+                  <img src="images/home/new.png" alt="">
+                </div>
+                <div class="transparent">
+                  <figcaption class="trans-content">
+                    <h3 class="heading-h3">$56</h3>
+                    <p class="para">Lorem ipsum dolor sit amet</p>
+                    <p>
+                      <button class="btn btn-warning cart-btn"><i class="fa-solid fa-cart-plus"></i>&nbsp;Add to cart</button>
+                    </p>
+                  </figcaption>
+                </div>
+              </figure>
+              <figure class="col-xl-4 col-12 product products text-center border pt-2">
+                <img src="images/home/product2.jpg" class="img-fluid" alt="">
+                <figcaption>
+                  <h3 class="heading-h3">$56</h3>
+                  <p class="para">Lorem ipsum dolor sit amet</p>
+                  <p>
+                    <button class="btn btn-warning cart-btn"><i class="fa-solid fa-cart-plus"></i>&nbsp;Add to cart</button>
+                  </p>
+                </figcaption>
+                <div class="col-xl-12 wishlist wishlist1">
+                  <span><a href="#"><i class="fa fa-plus-square"></i>&nbsp;Add to wishlist</a></span>
+                  <span><a href="#"><i class="fa fa-plus-square"></i>&nbsp;Add to compare</a></span>
+                </div>
+                <div class="logo">
+                  <img src="images/home/new.png" alt="">
+                </div>
+                <div class="transparent">
+                  <figcaption class="trans-content">
+                    <h3 class="heading-h3">$56</h3>
+                    <p class="para">Lorem ipsum dolor sit amet</p>
+                    <p>
+                      <button class="btn btn-warning cart-btn"><i class="fa-solid fa-cart-plus"></i>&nbsp;Add to cart</button>
+                    </p>
+                  </figcaption>
+                </div>
+              </figure>
+              <figure class="col-xl-4 col-12 products product text-center border pt-2">
+                <img src="images/home/product3.jpg" class="img-fluid" alt="">
+                <figcaption>
+                  <h3 class="heading-h3">$56</h3>
+                  <p class="para">Lorem ipsum dolor sit amet</p>
+                  <p>
+                    <button class="btn btn-warning cart-btn"><i class="fa-solid fa-cart-plus"></i>&nbsp;Add to cart</button>
+                  </p>
+                </figcaption>
+                <div class="col-xl-12 wishlist wishlist1">
+                  <span><a href="#"><i class="fa fa-plus-square"></i>&nbsp;Add to wishlist</a></span>
+                  <span><a href="#"><i class="fa fa-plus-square"></i>&nbsp;Add to compare</a></span>
+                </div>
+                <div class="logo">
+                  <img src="images/home/new.png" alt="">
+                </div>
+                <div class="transparent">
+                  <figcaption class="trans-content">
+                    <h3 class="heading-h3">$56</h3>
+                    <p class="para">Lorem ipsum dolor sit amet</p>
+                    <p>
+                      <button class="btn btn-warning cart-btn"><i class="fa-solid fa-cart-plus"></i>&nbsp;Add to cart</button>
+                    </p>
+                  </figcaption>
+                </div>
+              </figure>
+              <figure class="col-xl-4 col-12 products product text-center border pt-2">
+                <img src="images/home/product4.jpg" class="img-fluid" alt="">
+                <figcaption>
+                  <h3 class="heading-h3">$56</h3>
+                  <p class="para">Lorem ipsum dolor sit amet</p>
+                  <p>
+                    <button class="btn btn-warning cart-btn"><i class="fa-solid fa-cart-plus"></i>&nbsp;Add to cart</button>
+                  </p>
+                </figcaption>
+                <div class="col-xl-12 wishlist wishlist1">
+                  <span><a href="#"><i class="fa fa-plus-square"></i>&nbsp;Add to wishlist</a></span>
+                  <span><a href="#"><i class="fa fa-plus-square"></i>&nbsp;Add to compare</a></span>
+                </div>
+                <div class="logo">
+                  <img src="images/home/new.png" alt="">
+                </div>
+                <div class="transparent">
+                  <figcaption class="trans-content">
+                    <h3 class="heading-h3">$56</h3>
+                    <p class="para">Lorem ipsum dolor sit amet</p>
+                    <p>
+                      <button class="btn btn-warning cart-btn"><i class="fa-solid fa-cart-plus"></i>&nbsp;Add to cart</button>
+                    </p>
+                  </figcaption>
+                </div>
+              </figure>
+              <figure class="col-xl-4 col-12 products product text-center border pt-2">
+                <img src="images/home/product5.jpg" class="img-fluid" alt="">
+                <figcaption>
+                  <h3 class="heading-h3">$56</h3>
+                  <p class="para">Lorem ipsum dolor sit amet</p>
+                  <p>
+                    <button class="btn btn-warning cart-btn"><i class="fa-solid fa-cart-plus"></i>&nbsp;Add to cart</button>
+                  </p>
+                </figcaption>
+                <div class="col-xl-12 wishlist wishlist1">
+                  <span><a href="#"><i class="fa fa-plus-square"></i>&nbsp;Add to wishlist</a></span>
+                  <span><a href="#"><i class="fa fa-plus-square"></i>&nbsp;Add to compare</a></span>
+                </div>
+                <div class="logo">
+                  <img src="images/home/new.png" alt="">
+                </div>
+                <div class="transparent">
+                  <figcaption class="trans-content">
+                    <h3 class="heading-h3">$56</h3>
+                    <p class="para">Lorem ipsum dolor sit amet</p>
+                    <p>
+                      <button class="btn btn-warning cart-btn"><i class="fa-solid fa-cart-plus"></i>&nbsp;Add to cart</button>
+                    </p>
+                  </figcaption>
+                </div>
+              </figure>
+              <figure class="col-xl-4 col-12 products product text-center border pt-2">
+                <img src="images/home/product6.jpg" class="img-fluid" alt="">
+                <figcaption>
+                  <h3 class="heading-h3">$56</h3>
+                  <p class="para">Lorem ipsum dolor sit amet</p>
+                  <p>
+                    <button class="btn btn-warning cart-btn"><i class="fa-solid fa-cart-plus"></i>&nbsp;Add to cart</button>
+                  </p>
+                </figcaption>
+                <div class="col-xl-12 wishlist wishlist1">
+                  <span><a href="#"><i class="fa fa-plus-square"></i>&nbsp;Add to wishlist</a></span>
+                  <span><a href="#"><i class="fa fa-plus-square"></i>&nbsp;Add to compare</a></span>
+                </div>
+                <div class="logo">
+                  <img src="images/home/new.png" alt="">
+                </div>
+                <div class="transparent">
+                  <figcaption class="trans-content">
+                    <h3 class="heading-h3">$56</h3>
+                    <p class="para">Lorem ipsum dolor sit amet</p>
+                    <p>
+                      <button class="btn cart-btn"><i class="fa-solid fa-cart-plus"></i>&nbsp;Add to cart</button>
+                    </p>
+                  </figcaption>
+                </div>
+              </figure>
+            </div>
+          </section>
+          <!-- section product tab items -->
+          <section class="pt-3 pb-1">
+            <ul class="nav nav-pills background-tab mb-3" id="pills-tab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button class="nav-link product-tab-btn active" id="pills-home-tab" data-bs-toggle="pill"
+                  data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                  aria-selected="true">t-shirt</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link product-tab-btn" id="pills-profile-tab" data-bs-toggle="pill"
+                  data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+                  aria-selected="false">blazers</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link product-tab-btn" id="pills-contact-tab" data-bs-toggle="pill"
+                  data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
+                  aria-selected="false">sunglass</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link product-tab-btn" id="pills-contact-tab" data-bs-toggle="pill"
+                  data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
+                  aria-selected="false">kids</button>
+              </li>
+
+              <li class="nav-item" role="presentation">
+                <button class="nav-link product-tab-btn d-none d-sm-block" id="pills-contact-tab" data-bs-toggle="pill"
+                  data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
+                  aria-selected="false">poloshirt</button>
+              </li>
+
+
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+              <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                <div class="row">
+                  <div class="col-xl-3 col-6 text-center product-tab">
+                    <img src="images/home/gallery1.jpg" class="img-fluid" alt="">
+                    <figcaption>
+                      <h3 class="heading-h3">$56</h3>
+                      <p class="para">Lorem ipsum dolor sit amet</p>
+                      <p>
+                        <button class="btn cart-btn product-btn"><i class="fa-solid fa-cart-plus"></i>&nbsp;Add to
+                          cart</button>
+                      </p>
+                    </figcaption>
+                  </div>
+                  <div class="col-xl-3 col-6 text-center product-tab">
+                    <img src="images/home/gallery2.jpg" class="img-fluid" alt="">
+                    <figcaption>
+                      <h3 class="heading-h3">$56</h3>
+                      <p class="para">Lorem ipsum dolor sit amet</p>
+                      <p>
+                        <button class="btn cart-btn product-btn"><i class="fa-solid fa-cart-plus"></i>&nbsp;Add to
+                          cart</button>
+                      </p>
+                    </figcaption>
+                  </div>
+                  <div class="col-xl-3 col-6 text-center d-none d-sm-block d-sm-none d-md-block  product-tab">
+                    <img src="images/home/gallery3.jpg" class="img-fluid" alt="">
+                    <figcaption>
+                      <h3 class="heading-h3">$56</h3>
+                      <p class="para">Lorem ipsum dolor sit amet</p>
+                      <p>
+                        <button class="btn cart-btn product-btn"><i class="fa-solid fa-cart-plus"></i>&nbsp;Add to
+                          cart</button>
+                      </p>
+                    </figcaption>
+                  </div>
+                  <div class="col-xl-3 col-6 text-center d-none d-sm-block d-md-none d-lg-block d-sm-none d-md-block  product-tab">
+                    <img src="images/home/gallery4.jpg" class="img-fluid" alt="">
+                    <figcaption>
+                      <h3 class="heading-h3">$56</h3>
+                      <p class="para">Lorem ipsum dolor sit amet</p>
+                      <p>
+                        <button class="btn cart-btn product-btn"><i class="fa-solid fa-cart-plus"></i>&nbsp;Add to
+                          cart</button>
+                      </p>
+                    </figcaption>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                <div class="row">
+                  <div class="col-xl-3 col-6 text-center product-tab">
+                    <img src="images/home/gallery3.jpg" class="img-fluid" alt="">
+                    <figcaption>
+                      <h3 class="heading-h3">$56</h3>
+                      <p class="para">Lorem ipsum dolor sit amet</p>
+                      <p>
+                        <button class="btn cart-btn product-btn"><i class="fa-solid fa-cart-plus"></i>&nbsp;Add to
+                          cart</button>
+                      </p>
+                    </figcaption>
+                  </div>
+                  <div class="col-xl-3 col-6 text-center  product-tab">
+                    <img src="images/home/gallery4.jpg" class="img-fluid" alt="">
+                    <figcaption>
+                      <h3 class="heading-h3">$56</h3>
+                      <p class="para">Lorem ipsum dolor sit amet</p>
+                      <p>
+                        <button class="btn cart-btn product-btn"><i class="fa-solid fa-cart-plus"></i>&nbsp;Add to
+                          cart</button>
+                      </p>
+                    </figcaption>
+                  </div>
+                  <div class="col-xl-3 col-6 text-center d-none d-sm-block d-sm-none d-md-block  product-tab">
+                    <img src="images/home/gallery3.jpg" class="img-fluid" alt="">
+                    <figcaption>
+                      <h3 class="heading-h3">$56</h3>
+                      <p class="para">Lorem ipsum dolor sit amet</p>
+                      <p>
+                        <button class="btn cart-btn product-btn"><i class="fa-solid fa-cart-plus"></i>&nbsp;Add to
+                          cart</button>
+                      </p>
+                    </figcaption>
+                  </div>
+                  <div class="col-xl-3 col-6 text-center d-none d-sm-block d-md-none d-lg-block d-sm-none d-md-block  product-tab">
+                    <img src="images/home/gallery4.jpg" class="img-fluid" alt="">
+                    <figcaption>
+                      <h3 class="heading-h3">$56</h3>
+                      <p class="para">Lorem ipsum dolor sit amet</p>
+                      <p>
+                        <button class="btn cart-btn product-btn"><i class="fa-solid fa-cart-plus"></i>&nbsp;Add to
+                          cart</button>
+                      </p>
+                    </figcaption>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                <div class="row">
+                  <div class="col-xl-3 col-6 text-center product-tab">
+                    <img src="images/home/gallery1.jpg" class="img-fluid" alt="">
+                    <figcaption>
+                      <h3 class="heading-h3">$56</h3>
+                      <p class="para">Lorem ipsum dolor sit amet</p>
+                      <p>
+                        <button class="btn cart-btn product-btn"><i class="fa-solid fa-cart-plus"></i>&nbsp;Add to
+                          cart</button>
+                      </p>
+                    </figcaption>
+                  </div>
+                  <div class="col-xl-3 col-6 text-center product-tab">
+                    <img src="images/home/gallery2.jpg" class="img-fluid" alt="">
+                    <figcaption>
+                      <h3 class="heading-h3">$56</h3>
+                      <p class="para">Lorem ipsum dolor sit amet</p>
+                      <p>
+                        <button class="btn cart-btn product-btn"><i class="fa-solid fa-cart-plus"></i>&nbsp;Add to
+                          cart</button>
+                      </p>
+                    </figcaption>
+                  </div>
+                  <div class="col-xl-3 col-6 text-center d-none d-sm-block d-sm-none d-md-block  product-tab">
+                    <img src="images/home/gallery3.jpg" class="img-fluid" alt="">
+                    <figcaption>
+                      <h3 class="heading-h3">$56</h3>
+                      <p class="para">Lorem ipsum dolor sit amet</p>
+                      <p>
+                        <button class="btn cart-btn product-btn"><i class="fa-solid fa-cart-plus"></i>&nbsp;Add to
+                          cart</button>
+                      </p>
+                    </figcaption>
+                  </div>
+                  <div class="col-xl-3 col-6 text-center d-none d-sm-block d-md-none d-lg-block d-sm-none d-md-block  product-tab">
+                    <img src="images/home/gallery4.jpg" class="img-fluid" alt="">
+                    <figcaption>
+                      <h3 class="heading-h3">$56</h3>
+                      <p class="para">Lorem ipsum dolor sit amet</p>
+                      <p>
+                        <button class="btn cart-btn product-btn"><i class="fa-solid fa-cart-plus"></i>&nbsp;Add to
+                          cart</button>
+                      </p>
+                    </figcaption>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                <div class="row">
+                  <div class="col-xl-3 col-6 text-center product-tab">
+                    <img src="images/home/gallery4.jpg" class="img-fluid" alt="">
+                    <figcaption>
+                      <h3 class="heading-h3">$56</h3>
+                      <p class="para">Lorem ipsum dolor sit amet</p>
+                      <p>
+                        <button class="btn cart-btn product-btn"><i class="fa-solid fa-cart-plus"></i>&nbsp;Add to
+                          cart</button>
+                      </p>
+                    </figcaption>
+                  </div>
+                  <div class="col-xl-3 col-6 text-center product-tab">
+                    <img src="images/home/gallery3.jpg" class="img-fluid" alt="">
+                    <figcaption>
+                      <h3 class="heading-h3">$56</h3>
+                      <p class="para">Lorem ipsum dolor sit amet</p>
+                      <p>
+                        <button class="btn cart-btn product-btn"><i class="fa-solid fa-cart-plus"></i>&nbsp;Add to
+                          cart</button>
+                      </p>
+                    </figcaption>
+                  </div>
+                  <div class="col-xl-3 col-6 text-center d-none d-sm-block product-tab">
+                    <img src="images/home/gallery3.jpg" class="img-fluid" alt="">
+                    <figcaption>
+                      <h3 class="heading-h3">$56</h3>
+                      <p class="para">Lorem ipsum dolor sit amet</p>
+                      <p>
+                        <button class="btn cart-btn product-btn"><i class="fa-solid fa-cart-plus"></i>&nbsp;Add to
+                          cart</button>
+                      </p>
+                    </figcaption>
+                  </div>
+                  <div class="col-xl-3 col-6 text-center d-none d-sm-block d-md-none d-lg-block d-sm-none d-md-block  product-tab">
+                    <img src="images/home/gallery4.jpg" class="img-fluid" alt="">
+                    <figcaption>
+                      <h3 class="heading-h3">$56</h3>
+                      <p class="para">Lorem ipsum dolor sit amet</p>
+                      <p>
+                        <button class="btn cart-btn product-btn"><i class="fa-solid fa-cart-plus"></i>&nbsp;Add to
+                          cart</button>
+                      </p>
+                    </figcaption>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                <div class="row">
+                  <div class="col-xl-3 col-6 text-center product-tab">
+                    <img src="images/home/gallery2.jpg" class="img-fluid" alt="">
+                    <figcaption>
+                      <h3 class="heading-h3">$56</h3>
+                      <p class="para">Lorem ipsum dolor sit amet</p>
+                      <p>
+                        <button class="btn cart-btn product-btn"><i class="fa-solid fa-cart-plus"></i>&nbsp;Add to
+                          cart</button>
+                      </p>
+                    </figcaption>
+                  </div>
+                  <div class="col-xl-3 col-6 text-center product-tab">
+                    <img src="images/home/gallery1.jpg" class="img-fluid" alt="">
+                    <figcaption>
+                      <h3 class="heading-h3">$56</h3>
+                      <p class="para">Lorem ipsum dolor sit amet</p>
+                      <p>
+                        <button class="btn cart-btn product-btn"><i class="fa-solid fa-cart-plus"></i>&nbsp;Add to
+                          cart</button>
+                      </p>
+                    </figcaption>
+                  </div>
+                  <div class="col-xl-3 col-6 text-center d-none d-sm-block product-tab">
+                    <img src="images/home/gallery3.jpg" class="img-fluid" alt="">
+                    <figcaption>
+                      <h3 class="heading-h3">$56</h3>
+                      <p class="para">Lorem ipsum dolor sit amet</p>
+                      <p>
+                        <button class="btn cart-btn product-btn"><i class="fa-solid fa-cart-plus"></i>&nbsp;Add to
+                          cart</button>
+                      </p>
+                    </figcaption>
+                  </div>
+                  <div class="col-xl-3 col-6 text-center d-none d-sm-block d-md-none d-lg-block d-sm-none d-md-block product-tab">
+                    <img src="images/home/gallery4.jpg" class="img-fluid" alt="">
+                    <figcaption>
+                      <h3 class="heading-h3">$56</h3>
+                      <p class="para">Lorem ipsum dolor sit amet</p>
+                      <p>
+                        <button class="btn cart-btn product-btn"><i class="fa-solid fa-cart-plus"></i>&nbsp;Add to
+                          cart</button>
+                      </p>
+                    </figcaption>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </section>
+          <!-- section product tab items end-->
+
+          <!-- recommded section start  -->
+          <section class="pt-3">
+            <h3 class="heading-h3">recommended items</h3>
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="1000">
+                  <div class="row">
+                    <div class="col-xl-4 col-sm-4  col-6 text-center recommded-tab">
+                      <img src="images/home/recommend1.jpg" class="img-fluid" alt="">
+                      <figcaption>
+                        <h3 class="heading-h3">$56</h3>
+                        <p class="para">Lorem ipsum dolor sit amet</p>
+                        <p>
+                          <button class="btn cart-btn product-btn"><i class="fa-solid fa-cart-plus"></i>&nbsp;Add to
+                            cart</button>
+                        </p>
+                      </figcaption>
+                    </div>
+                    <div class="col-xl-4 col-sm-4  col-6 text-center recommded-tab">
+                      <img src="images/home/recommend2.jpg" class="img-fluid" alt="">
+                      <figcaption>
+                        <h3 class="heading-h3">$56</h3>
+                        <p class="para">Lorem ipsum dolor sit amet</p>
+                        <p>
+                          <button class="btn cart-btn product-btn"><i class="fa-solid fa-cart-plus"></i>&nbsp;Add to
+                            cart</button>
+                        </p>
+                      </figcaption>
+                    </div>
+                    <div class="col-xl-4 col-sm-4  col-6 text-center d-none d-sm-block recommded-tab">
+                      <img src="images/home/recommend3.jpg" class="img-fluid" alt="">
+                      <figcaption>
+                        <h3 class="heading-h3">$56</h3>
+                        <p class="para">Lorem ipsum dolor sit amet</p>
+                        <p>
+                          <button class="btn cart-btn product-btn"><i class="fa-solid fa-cart-plus"></i>&nbsp;Add to
+                            cart</button>
+                        </p>
+                      </figcaption>
+                    </div>
+
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="1500">
+                  <div class="row">
+                    <div class="col-xl-4 col-sm-4  col-6 text-center recommded-tab">
+                      <img src="images/home/recommend3.jpg" class="img-fluid" alt="">
+                      <figcaption>
+                        <h3 class="heading-h3">$56</h3>
+                        <p class="para">Lorem ipsum dolor sit amet</p>
+                        <p>
+                          <button class="btn cart-btn product-btn"><i class="fa-solid fa-cart-plus"></i>&nbsp;Add to
+                            cart</button>
+                        </p>
+                      </figcaption>
+                    </div>
+                    <div class="col-xl-4 col-sm-4  col-6 text-center recommded-tab">
+                      <img src="images/home/recommend2.jpg" class="img-fluid" alt="">
+                      <figcaption>
+                        <h3 class="heading-h3">$56</h3>
+                        <p class="para">Lorem ipsum dolor sit amet</p>
+                        <p>
+                          <button class="btn cart-btn product-btn"><i class="fa-solid fa-cart-plus"></i>&nbsp;Add to
+                            cart</button>
+                        </p>
+                      </figcaption>
+                    </div>
+                    <div class="col-xl-4 col-sm-4  col-6 text-center d-none d-sm-block recommded-tab">
+                      <img src="images/home/recommend3.jpg" class="img-fluid" alt="">
+                      <figcaption>
+                        <h3 class="heading-h3">$56</h3>
+                        <p class="para">Lorem ipsum dolor sit amet</p>
+                        <p>
+                          <button class="btn cart-btn product-btn"><i class="fa-solid fa-cart-plus"></i>&nbsp;Add to
+                            cart</button>
+                        </p>
+                      </figcaption>
+                    </div>
+
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="col-xl-4 col-sm-4  col-6 text-center recommded-tab">
+                      <img src="images/home/recommend2.jpg" class="img-fluid" alt="">
+                      <figcaption>
+                        <h3 class="heading-h3">$56</h3>
+                        <p class="para">Lorem ipsum dolor sit amet</p>
+                        <p>
+                          <button class="btn cart-btn product-btn"><i class="fa-solid fa-cart-plus"></i>&nbsp;Add to
+                            cart</button>
+                        </p>
+                      </figcaption>
+                    </div>
+                    <div class="col-xl-4 col-sm-4  col-6 text-center recommded-tab">
+                      <img src="images/home/recommend1.jpg" class="img-fluid" alt="">
+                      <figcaption>
+                        <h3 class="heading-h3">$56</h3>
+                        <p class="para">Lorem ipsum dolor sit amet</p>
+                        <p>
+                          <button class="btn cart-btn product-btn"><i class="fa-solid fa-cart-plus"></i>&nbsp;Add to
+                            cart</button>
+                        </p>
+                      </figcaption>
+                    </div>
+                    <div class="col-xl-4 col-sm-4  col-6 text-center d-none d-sm-block recommded-tab">
+                      <img src="images/home/recommend3.jpg" class="img-fluid" alt="">
+                      <figcaption>
+                        <h3 class="heading-h3">$56</h3>
+                        <p class="para">Lorem ipsum dolor sit amet</p>
+                        <p>
+                          <button class="btn cart-btn product-btn"><i class="fa-solid fa-cart-plus"></i>&nbsp;Add to
+                            cart</button>
+                        </p>
+                      </figcaption>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </section>
+          <!-- recommded section end  -->
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- footer start -->
+  <footer class="footer-section mt-5 pt-5">
+    <div class="container footer-top">
+      <div class="row">
+        <div class="col-xl-2 col-12 text-center eshop">
+          <h2 class="heading-h2">E<span>-shopper</span></h2>
+          <p class="para1">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Vero cum quam .
+          </p>
+        </div>
+        <div class="col-xl-2 col-sm-2 col-6 text-center iframes">
+          <img src="images/home/iframe1.png" class="img-fluid" alt="">
+          <h5 class="heading-h5">Circle of Hands</h5>
+          <p class="para2">24 DEC 2014</p>
+        </div>
+        <div class="col-xl-2 col-sm-2 col-6 text-center iframes">
+          <img src="images/home/iframe2.png" class="img-fluid" alt="">
+          <h5 class="heading-h5">Circle of Hands</h5>
+          <p class="para2">24 DEC 2014</p>
+        </div>
+        <div class="col-xl-2 col-sm-2 col-6 text-center iframes">
+          <img src="images/home/iframe3.png" class="img-fluid" alt="">
+          <h5 class="heading-h5">Circle of Hands</h5>
+          <p class="para2">24 DEC 2014</p>
+        </div>
+        <div class="col-xl-2 col-sm-2 col-6 text-center iframes">
+          <img src="images/home/iframe4.png" class="img-fluid" alt="">
+          <h5 class="heading-h5">Circle of Hands</h5>
+          <p class="para2">24 DEC 2014</p>
+        </div>
+        <div class="col-xl-2 col-sm-4 col-12 text-center map">
+          <img src="images/home/map.png" class="img-fluid" alt="">
+          <p class="mapping">505 S Atlantic Ave Virginia Beach, VA(Virginia)</p>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-mid pt-5">
+      <div class="row">
+        <div class="col-xl-2 col-sm-3 col-6 footer-nav text-center">
+          <h4 class="heading-h4">service</h4>
+          <ul class="nav flex-column footer_ul">
+            <li class="nav-item">
+              <a class="nav-link  active" aria-current="page" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Online Help</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Order Status</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Change Location</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">FAQ’s</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-xl-2 col-sm-3 col-6 footer-nav text-center">
+          <h4 class="heading-h4">Quock Shop</h4>
+          <ul class="nav flex-column footer_ul">
+            <li class="nav-item">
+              <a class="nav-link  active" aria-current="page" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Online Help</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Order Status</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Change Location</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">FAQ’s</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-xl-2 col-sm-3 col-6 footer-nav text-center">
+          <h4 class="heading-h4">Policies</h4>
+          <ul class="nav flex-column footer_ul">
+            <li class="nav-item">
+              <a class="nav-link  active" aria-current="page" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Online Help</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Order Status</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Change Location</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">FAQ’s</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-xl-2 col-sm-3 col-6 footer-nav text-center">
+          <h4 class="heading-h4">About Shopper</h4>
+          <ul class="nav flex-column footer_ul">
+            <li class="nav-item">
+              <a class="nav-link  active" aria-current="page" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Online Help</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Order Status</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Change Location</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">FAQ’s</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-xl-1"></div>
+        <div class="col-xl-3 col-12 about_shopper">
+          <h4 class="heading-h4">About Shopper</h4>
+          <form class="row row-cols-lg-auto g-3 align-items-center">
+            <div class="col-12 text-center">
+              <label class="visually-hidden" for="inlineFormInputGroupUsername">Username</label>
+              <div class="input-group">
+
+                <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Username">
+
+                <button type="submit" class="btn btn-warning">
+                  <i class="fa-solid fa-paper-plane"></i>
+                </button>
+
+              </div>
+            </div>
+            <p class="para2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis quo exercitationem
+              sapiente,
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div class="footer-end pt-1">
+    <div class="container footer-last">
+
+      <p class="pt-1 pb-1">
+        <span class="float-left">
+          Copyright © 2024 E-SHOPPER Inc. All rights reserved.
+        </span>
+        <span class="float-end span-last">Designed by <span class="span-color"><u>Dhaval Parmar</u></span> </span>
+      </p>
+    </div>
+    <div class="container">
+      <div class="col-xl-2">
+        <button onclick="topFunction()" id="myBtn" title="Go to top" class="float-end">Top
+            <i class="fa-solid fa-arrow-up"></i>
+        </button>
+    </div>
+  </div>
+
+  <!-- footer end  -->
+  <!-- javascript cdn -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
